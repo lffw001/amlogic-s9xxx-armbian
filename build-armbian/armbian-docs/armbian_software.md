@@ -39,13 +39,13 @@ According to the user's demand feedback in the [Issue](https://github.com/ophub/
 | 213 | Eog                   | [Home](https://gitlab.gnome.org/GNOME/eog) | -    | Eye of GNOME(eog) is a image viewer program.  It is meant to be a fast and functional image viewer. |
 | 214 | VisualStudioCode      | [Home](https://code.visualstudio.com/) | -    | Visual Studio Code is a lightweight but powerful source code editor. |
 | 215 | Gedit                 | [Home](https://github.com/GNOME/gedit) | -    | Gedit is a full-featured text editor for the GNOME desktop environment. You can use it to prepare simple notes and documents, or you can use some of its advanced features, making it your own software development environment. |
-| 216 | KVM                   | [Home](https://virt-manager.org/) | -    | KVM (for Kernel-Based Virtual Machines) is a complete virtualization solution for Linux with virtualization extensions. The virt-manager application is a desktop user interface for managing virtual machines through libvirt. It primarily targets KVM VMs, but also manages Xen and LXC (linux containers). |
+| 216 | KVM                   | [Home](https://virt-manager.org/) | -    | KVM (for Kernel-Based Virtual Machines) is a complete virtualization solution for Linux with virtualization extensions. The virt-manager application is a desktop user interface for managing virtual machines through libvirt. It primarily targets KVM VMs, but also manages Xen and LXC (linux containers). KVM virtual machine can install [OpenWrt](https://github.com/unifreq/openwrt_packit), Debian, Ubuntu, OpenSUSE, ArchLinux, Centos, Gentoo, KyLin, UOS, etc. |
 | 217 | Flameshot             | [Home](https://flameshot.org/) | -    | Powerful, yet simple to use open-source screenshot software. |
 | 301 | Frps                  | [Home](https://gofrp.org/) | -    | A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet. |
 | 302 | Frpc                  | [Home](https://gofrp.org/) | -    | Frp is a high-performance reverse proxy application focusing on intranet penetration, supporting TCP, UDP, HTTP, HTTPS and other protocols. |
 | 303 | Plex                  | [Home](https://www.plex.tv/) | -    | From personal media on your own server, to free and on-demand Movies & Shows, live TV, podcasts, and web shows, to streaming music, you can enjoy it all in one app, on any device. |
 | 304 | Emby-Server           | [Home](https://emby.media/) | -    | Sync your personal media to the cloud for easy backup, archiving, and converting. Store your content in multiple resolutions to enable direct streaming from any device. |
-| 305 | OpenMediaVault        | [Home](https://www.openmediavault.org/) | -    | openmediavault is the next generation network attached storage (NAS) solution based on Debian. |
+| 305 | OpenMediaVault        | [Home](https://www.openmediavault.org/) | -    | OpenMediaVault is the next generation network attached storage (NAS) solution based on Debian. |
 | 306 | NPS                   | [Home](https://ehang-io.github.io/nps) | -    | NPS is a lightweight, high-performance, powerful intranet penetration proxy server, with a powerful web management terminal. |
 | 307 | NPC                   | [Home](https://ehang-io.github.io/nps) | -    | NPCs are clients of NPS. |
 
@@ -61,7 +61,7 @@ A list of currently integrated software quick installation/management will be di
 
 ```yaml
 root@armbian:~# armbian-software
-[ STEPS ] Start selecting software [ Current system: debian:bullseye ]...
+[ STEPS ] Start selecting software [ Current system: debian/bullseye ]...
 ----------------------------------------------------------
 ID    NAME                STATE           MANAGE
 ----------------------------------------------------------
@@ -125,7 +125,7 @@ Welcome to add more software. Support requests are welcome in [Issue](https://gi
 | 112 | Radarr                | [Home](https://radarr.video/) | [Docker](https://hub.docker.com/r/linuxserver/radarr) :7878 | Radarr 是 Usenet 和 BitTorrent 用户的电影收藏管理器。 |
 | 113 | Syncthing             | [Home](https://syncthing.net/) | [Docker](https://hub.docker.com/r/linuxserver/syncthing) :8384 | Syncthing 是一个连续的文件同步程序。 |
 | 114 | FileBrowser           | [Home](https://filebrowser.org/) | [Docker](https://hub.docker.com/r/filebrowser/filebrowser) :8002 | File Browser 在指定目录中提供文件管理界面，可用于上传，删除，预览，重命名和编辑文件。 |
-| 115 | Heimdall              | [Home](https://heimdall.site/) | [Docker](https://hub.docker.com/r/linuxserver/heimdall) :8003 | Heimdall 是一种以简单的方式组织所有这些链接到您最常用的网站和Web应用程序的方法。 |
+| 115 | Heimdall              | [Home](https://heimdall.site/) | [Docker](https://hub.docker.com/r/linuxserver/heimdall) :8003 | Heimdall 是一种以简单的方式组织所有这些链接到您最常用的网站和 Web 应用程序的方法。 |
 | 116 | Node-RED              | [Home](https://nodered.org/) | [Docker](https://nodered.org/docs/getting-started/docker) :1880 | Node-RED 是一种编程工具。它提供了一个基于浏览器的编辑器，使得使用调色板中的各种节点轻松地将流连接在一起，只需单击一下即可部署运行。 |
 | 117 | Mosquitto             | [Home](https://www.mosquitto.org/) | [Docker](https://hub.docker.com/r/arm64v8/eclipse-mosquitto) :1883 | MQTT 协议提供了一种使用发布/订阅模型执行消息传递的轻量级方法。Eclipse Mosquitto 是 MQTT 协议版本 5、3.1.1 和 3.1 的服务器的开源实现。 |
 | 118 | OpenWrt               | [Home](https://www.openwrt.org/) | [Docker](https://hub.docker.com/r/ophub/openwrt-aarch64) | OpenWrt 项目是一个针对嵌入式设备的 Linux 操作系统，它拥有超过 3000+ 个标准化应用软件包和非常丰富的第三方插件支持。 |
@@ -144,13 +144,13 @@ Welcome to add more software. Support requests are welcome in [Issue](https://gi
 | 213 | Eog                   | [Home](https://gitlab.gnome.org/GNOME/eog) | -    | Eye of GNOME（eog）一个图像查看器程序。它旨在成为一个快速且功能强大的图像查看器。 |
 | 214 | VisualStudioCode      | [Home](https://code.visualstudio.com/) | -    | Visual Studio Code 是一个轻量级但功能强大的源代码编辑器。 |
 | 215 | Gedit                 | [Home](https://github.com/GNOME/gedit) | -    | Gedit 是一个用于 GNOME 桌面环境的全功能文本编辑器。您可以使用它来准备简单的笔记和文档，也可以使用它的一些高级功能，使其成为您自己的软件开发环境。 |
-| 216 | KVM                   | [Home](https://virt-manager.org/) | -    | KVM（用于基于内核的虚拟机）是包含虚拟化扩展适用于 Linux 的完整虚拟化解决方案。virt-manager 应用程序是一个桌面用户界面，用于通过 libvirt 管理虚拟机。它主要针对 KVM VM，但也管理 Xen 和 LXC（Linux 容器）。 |
+| 216 | KVM                   | [Home](https://virt-manager.org/) | -    | KVM（用于基于内核的虚拟机）是包含虚拟化扩展适用于 Linux 的完整虚拟化解决方案。virt-manager 应用程序是一个桌面用户界面，用于通过 libvirt 管理虚拟机。它主要针对 KVM VM，但也管理 Xen 和 LXC（Linux 容器）。KVM 虚拟机可以安装 [OpenWrt](https://github.com/unifreq/openwrt_packit)、Debian、Ubuntu、OpenSUSE、ArchLinux、Centos、Gentoo、KyLin、UOS 等等。 |
 | 217 | Flameshot             | [Home](https://flameshot.org/) | -    | 功能强大，但易于使用的开源屏幕截图软件。 |
 | 301 | Frps                  | [Home](https://gofrp.org/) | -    | Frp 是一种快速反向代理，可帮助您将 NAT 或防火墙后面的本地服务器暴露给互联网。 |
 | 302 | Frpc                  | [Home](https://gofrp.org/) | -    | Frp 是一个专注于内网穿透的高性能的反向代理应用，支持 TCP、UDP、HTTP、HTTPS 等多种协议。 |
 | 303 | Plex                  | [Home](https://www.plex.tv/) | -    | 从您自己服务器上的个人媒体，到免费和点播的电影和节目，直播电视，播客和网络节目，再到流媒体音乐，您可以在任何设备上的一个应用程序中享受所有这些内容。 |
 | 304 | Emby-Server           | [Home](https://emby.media/) | -    | 将您的个人媒体同步到云，以便轻松备份、存档和转换。以多种分辨率存储您的内容，以便从任何设备直接流式传输。 |
-| 305 | OpenMediaVault        | [Home](https://www.openmediavault.org/) | -    | openmediavault 是基于 Debian 的下一代网络附加存储（NAS）解决方案。 |
+| 305 | OpenMediaVault        | [Home](https://www.openmediavault.org/) | -    | OpenMediaVault 是基于 Debian 的下一代网络附加存储（NAS）解决方案。 |
 | 306 | NPS                   | [Home](https://ehang-io.github.io/nps) | -    | NPS 服务端。一款轻量级、高性能、功能强大的内网渗透代理服务器，具有强大的 Web 管理终端。 |
 | 307 | NPC                   | [Home](https://ehang-io.github.io/nps) | -    | NPC 是 NPS 的客户端。 |
 
@@ -166,7 +166,7 @@ armbian-software
 
 ```yaml
 root@armbian:~# armbian-software
-[ STEPS ] Start selecting software [ Current system: debian:bullseye ]...
+[ STEPS ] Start selecting software [ Current system: debian/bullseye ]...
 ----------------------------------------------------------
 ID    NAME                STATE           MANAGE
 ----------------------------------------------------------
